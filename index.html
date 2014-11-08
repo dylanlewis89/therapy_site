@@ -54,6 +54,24 @@
 	a:active {
 		color: #04B45F;
 	}
+	blockquote {
+	 	background: #f9f9f9;
+		border-left: 10px solid #ccc;
+	 	margin: 1.5em 10px;
+		padding: 0.5em 10px;
+		quotes: "\201C""\201D""\2018""\2019";
+	}
+	blockquote:before {
+		color: #ccc;
+		content: open-quote;
+		font-size: 4em;
+		line-height: 0.1em;
+		margin-right: 0.25em;
+		vertical-align: -0.4em;
+	}
+	blockquote p {
+		display: inline;
+	}
 	</style>
 </head>
 
@@ -66,6 +84,9 @@
 	<h1><a name = "about"></a>Elaine Cornelius</h1>
 	<h2>My name is Elaine Cornelius and I'm a therapist in Delmar, NY.</h2>
 	<img src="https://cdn.rawgit.com/dylanlewis89/dylanlewis89.github.io/master/picture.jpg">
+	<hr>
 	<a name = "referrals"></a>
+	<blockquote>"Elaine was fantastic. Really amazing ability to connect with young people. I would definitely recommend her to friends and family."</blockquote>
+	<blockquote>"Elaine immediately put my daughter at ease. It was refreshing to find a therapist that so quickly understood our family."</blockquote>
 	<a name = "contact"></a>
 </body>
